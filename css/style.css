@@ -1,6 +1,10 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
+@font-face {
+	font-family: 'Baskerville';
+	src: url(../fonts/Baskerville.ttc);
+}
 
 /*////////// Global Styles //////////*/
 
@@ -22,91 +26,71 @@ body {
 /*******=======GLOBAL STYLES=======*******/
 
 * {
-
-}
-
-section {
-
+	color: rgb(152,173,166);
 }
 
 img {
-
-}
-
-h1, h2 {
-
+	border: 5px solid rgb(152,173,166);
 }
 
 h1 {
-
+	font-family: 'Baskerville';
 }
-h2 {
 
+h2 {
+	font-size: 2em;
+	color: grey;
 }
 
 p {
-
+	color: grey;
 }
 
 a {
-
+	text-decoration: none;
 }
+
 /****----HEADER----****/
 header {
-
+	margin: 0 0 .5em;
+	padding: .25em 0 0;
+	border-bottom: 1px solid rgb(152,173,166);
 }
 
 h1 {
+	font-size: 5em;
+	font-weight: bolder;
+	line-height: 0;
+}
 
+h1:hover {
+	color: rgb(111,127,122);
 }
 
 /****----#FEATURED----****/
 
-#featured {
-
-}
-
-#featured img {
-
-}
-
-#featured h2 {
-
-}
-
-#featured p {
-
-}
-
 #featured a {
+	color: #1783bb;
+}
 
+#featured a:hover {
+	text-decoration: underline;
 }
 
 
 /****----#PRESS----****/
 
-#press {
-
-}
-
-#press h2 {
-
-}
-
-#press a {
-
-}
-
-#press img {
-
+#press img:hover {
+	border: 5px solid rgb(111,127,122);
 }
 
 /****----FOOTER----****/
 
 footer {
-
+	text-align: right;
 }
 
 footer p {
-
+	font-size: .8em;
+	color: rgb(111,127,122);
 }
